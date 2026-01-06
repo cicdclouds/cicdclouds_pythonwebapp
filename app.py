@@ -167,4 +167,5 @@ def initialize_db():
 if __name__ == '__main__':
     # Initialize the database before running the app
     initialize_db()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
